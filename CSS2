@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#para1{
+	text-align: center;
+	color: red;
+}
+</style>
+</head>
+<body>
+<p id="para1">HELLO WORLD</p>
+<p><h1 style=" color:blue">THIS PARAGRAPH NOT AFFECTED BY THE STYLE></h1></p>
+<body>
+</html>
