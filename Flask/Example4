@@ -1,0 +1,6 @@
+from flask import Flask,render_template #Because of render_template we can access another program in our program.
+	
+	app=Flask(__name__)
+	@app.route('/')
+	def index():
+		return render_template('index.html')#'index.html'program is another program which we access our program (because of this we can acccess many types of this html file)
