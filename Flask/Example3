@@ -1,0 +1,12 @@
+from flask import Flask  #Flask is a library with the help of this you can work on web frame work
+ 
+app=Flask(__name__)
+
+@app.route('/')
+def index():
+	return 'Hello,World!'
+@app.route('/<string:name>')#Brcause of this we can enter any name (add '/' after IP ) and then write any name
+def hello(name):
+	name=name.capitalize()
+	return f'<h1>Hello,{name}!</h1>'#OUTPUT:-Hello[NAME(which you type after'/')]
+	
