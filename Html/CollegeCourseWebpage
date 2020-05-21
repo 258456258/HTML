@@ -1,0 +1,15 @@
+<html>
+		<head>
+		<title>college course</title>
+       </head>
+   <body style="background-color:yellow;">
+	<table border="1" width="100%">
+		<p><h1>Courses name of our college:-</h1></p>
+			
+
+			<h3>1.BCA</h3>
+            <h3>2.BBA</h3>
+			<h3>3.B.com</h3>
+			<h3>4.LLB</h3>
+	 </body>
+</html>
