@@ -1,0 +1,15 @@
+<html>
+	<head>
+	</head>
+<centre>
+	<body style="background-color:yellow;">
+	<table border="1" width="100%">
+	   <p><h1>S.D.MANAGEMENT COLLEGE OF MUZAFFARNAGAR.</h1></p>
+		<hr>
+		<h3><p><a href="home.html">HOME PAGE</a></p></h3>
+		<h3><p><a href="contact.htm">CONTACT US</a></p></h3>
+		<h3><p><a href="page6.htm">click here to go to page 6</a></p></h3>
+		<h3><p><a href="table.htm">click here to go to BCA 5th Sem Student List </a></p>
+		<hr>
+	</body>
+</html>
