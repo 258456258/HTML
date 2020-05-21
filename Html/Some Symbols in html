@@ -1,0 +1,17 @@
+<html>
+	<head>
+	<title>My website</title>
+	</head>
+	
+	<body>
+	<p>PRINCE TYAGI(paragraph,p)</p>
+	<strong>PRINCE TYAGI(stronger word,strong)</strong>
+	<small>PRINCE TYAGI(small word,small)</small>
+	<br>TYAGI JI(line shift,br)</br>
+	<hr>MR.TYAGI(horizontal line,hr))</hr>
+	<ul>12345(list,ul)</ul>
+	<ol>abcdef(ordered list,ol)</ol>
+	<li>09876(list item,li)</li>
+	<h1 style="background-color:YELLOW;">my friend ship with html</h2>
+	</body>
+</html>
