@@ -1,0 +1,18 @@
+Firstly we have to install Django in our system.If we have already django in Operating System So Check django in your system or not type this command on your command prompt.
+django-admin --version
+3.0.7(It look like this)
+
+After that make a folder which you save your data.
+Suppose projects name your folder
+
+These commands will build your first project without any code.
+
+mkdir projects
+django-admin startproject ABC
+cd ABC
+dir
+python manage.py runserver
+
+After run these commands you'll have IP address.
+127.0.0.1:8000
+
