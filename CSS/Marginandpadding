@@ -1,0 +1,19 @@
+
+<html> 
+   <head> 
+      <style> 
+         p 
+         { 
+         margin:80px 100px 50px 80px; 
+         } 
+      </style> 
+   </head> 
+   <body> 
+      <h1> 
+         HELLOWORLD 
+      </h1> 
+      <p> 
+         Margin properties 
+      </p> 
+   </body> 
+</html> 
