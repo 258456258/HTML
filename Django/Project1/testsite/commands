@@ -1,0 +1,35 @@
+prince@prince-HP-2000-Notebook-PC:~$ virtualenv env
+Running virtualenv with interpreter /usr/bin/python2
+New python executable in /home/prince/env/bin/python2
+Not overwriting existing python script /home/prince/env/bin/python (you must use /home/prince/env/bin/python2)
+Installing setuptools, pkg_resources, pip, wheel...done.
+prince@prince-HP-2000-Notebook-PC:~$ cd env
+prince@prince-HP-2000-Notebook-PC:~/env$ source bin/activate
+(env) prince@prince-HP-2000-Notebook-PC:~/env$ cd Desktop
+bash: cd: Desktop: No such file or directory
+(env) prince@prince-HP-2000-Notebook-PC:~/env$ cd ..
+(env) prince@prince-HP-2000-Notebook-PC:~$ cd Desktop
+(env) prince@prince-HP-2000-Notebook-PC:~/Desktop$ cd djangoproject
+(env) prince@prince-HP-2000-Notebook-PC:~/Desktop/djangoproject$ cd testsite
+(env) prince@prince-HP-2000-Notebook-PC:~/Desktop/djangoproject/testsite$ python3 manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 21, 2020 - 22:31:40
+Django version 3.0.7, using settings 'testsite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[21/Jun/2020 22:31:45] "GET /login1/ HTTP/1.1" 200 20
+[21/Jun/2020 22:31:51] "GET / HTTP/1.1" 200 16
+[21/Jun/2020 22:31:58] "GET /admin/ HTTP/1.1" 302 0
+[21/Jun/2020 22:31:58] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+[21/Jun/2020 22:31:59] "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+[21/Jun/2020 22:31:59] "GET /static/admin/css/base.css HTTP/1.1" 200 4096
+[21/Jun/2020 22:31:59] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+[21/Jun/2020 22:31:59] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[21/Jun/2020 22:31:59] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 4096
+[21/Jun/2020 22:31:59] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[21/Jun/2020 22:32:15] "GET /login/ HTTP/1.1" 200 18
+[21/Jun/2020 22:32:21] "GET /login1 HTTP/1.1" 301 0
+[21/Jun/2020 22:32:21] "GET /login1/ HTTP/1.1" 200 20
