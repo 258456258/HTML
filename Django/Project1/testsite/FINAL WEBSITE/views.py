@@ -7,7 +7,7 @@ def index(request):
 def analyze(request):
 	#get the text
 	djtext=request.POST.get('text','default')
-	print(djtext)
+	print(djtext) 
 	#CHECK CHECKBOX VALUES
 	removepunc=request.POST.get('removepunc','off')
 	fullcaps=request.POST.get('fullcaps','off')
