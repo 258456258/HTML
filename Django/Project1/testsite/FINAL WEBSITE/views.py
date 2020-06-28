@@ -31,7 +31,7 @@ def analyze(request):
 	if(fullcaps=="on"):
 		analyzed=""
 		for char in djtext:
-			analyzed=analyzed+char.upper()
+			analyzed=analyzed+char.upper() 
 		params={'purpose':'Changed to Uppercase','analyzed_text':analyzed}
 		djtext=analyzed
 	#	return render(request,'analyze.html',params)
