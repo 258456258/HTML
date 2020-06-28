@@ -42,9 +42,7 @@ def analyze(request):
 		for char in djtext:
 			if (char!="\n" and char!='\r'):
 				analyzed=analyzed+char
-			else:
-				print('no')
-		print('pre',analyzed)
+		
 		params={'purpose':'Removed New Lines','analyzed_text':analyzed}
 		djtext=analyzed
 		#return render(request,'analyze.html',params)
