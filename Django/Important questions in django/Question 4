@@ -1,0 +1,10 @@
+How do you check for the version of Django installed on your system?
+To check for the version of Django installed on your system, you can open the command prompt and enter the following command:
+
+python -m django –version
+You can also try to import Django and use the get_version() method as follows:
+
+1
+2
+import django
+print(django.get_version())
