@@ -1,0 +1,10 @@
+What are the advantages of using Django?
+Django’s stack is loosely coupled with tight cohesion
+The Django apps make use of very less code
+Allows quick development of websites
+Follows the DRY or the Don’t Repeat Yourself Principle which means, one concept or a piece of data should live in just one place
+Consistent at low as well as high levels
+Behaviors are not implicitly assumed, they are rather explicitly specified
+SQL statements are not executed too many times and are optimized internally
+Can easily drop into raw SQL whenever required
+Flexibility while using URL’s
