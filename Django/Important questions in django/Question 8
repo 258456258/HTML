@@ -1,0 +1,11 @@
+What are the features available in Django web framework?
+Ans: Features available in Django web framework are:
+
+Admin Interface (CRUD)
+Templating
+Form handling
+Internationalization
+Session, user management, role-based permissions
+Object-relational mapping (ORM)
+Testing Framework
+Fantastic Documentation
