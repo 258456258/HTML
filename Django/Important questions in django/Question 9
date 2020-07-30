@@ -1,0 +1,12 @@
+How to create a project in Django?
+Ans: To start a project in Django, use the command $django-admin.py and then use the following command:
+
+Project
+
+_init_.py
+
+manage.py
+
+settings.py
+
+urls.py
