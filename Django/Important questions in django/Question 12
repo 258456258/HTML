@@ -1,0 +1,3 @@
+What does the Django templates contain?
+
+Ans: A template is a simple text file. It can create any text-based format like XML, CSV, HTML, etc. A template contains variables that get replaced with values when the template is evaluated and tags (%tag%) that controls the logic of the template.
