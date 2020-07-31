@@ -1,0 +1,3 @@
+What does the Django command `manage.py shell` do?
+
+ANSWER:-Starts a Python command prompt with your Django environment pre-loaded.
