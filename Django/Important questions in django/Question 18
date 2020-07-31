@@ -1,0 +1,3 @@
+What does the Django command `manage.py validate` do?
+
+ANSWERS:-Checks for errors in your models.
