@@ -1,0 +1,9 @@
+How can you set up static files in Django?
+
+Ans: There are three main things required to set up static files in Django:
+
+1. Set STATIC_ROOT in settings.py
+
+2. run manage.py collectsatic
+
+3. set up a Static Files entry on the PythonAnywhere web tab
