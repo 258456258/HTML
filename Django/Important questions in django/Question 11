@@ -1,0 +1,11 @@
+How can you set up the database in Djanago?
+
+Ans: To set up a database in Django, you can use the command edit mysite/setting.py , it is a normal python module with module level representing Django settings.
+
+By default, Django uses SQLite database. It is easy for Django users because it doesn’t require any other type of installation. In the case of other database you have to the following keys in the DATABASE ‘default’ item to match your database connection settings.
+
+Engines: you can change database by using ‘django.db.backends.sqlite3’ , ‘django.db.backeneds.mysql’, ‘django.db.backends.postgresql_psycopg2’, ‘django.db.backends.oracle’ and so on
+
+Name: The name of your database. In the case if you are using SQLite as your database, in that case database will be a file on your computer, Name should be a full absolute path, including file name of that file.
+
+Note: You have to add setting likes setting like Password, Host, User, etc. in your database, if you are not choosing SQLite as your database.
