@@ -1,0 +1,9 @@
+What are the inheritance styles in Django?
+
+Ans: There are three possible inheritance styles in Django:
+
+1. Abstract base classes: This style is used when you only want parent?s class to hold information that you don’t want to type out for each child model.
+
+2. Multi-table Inheritance: This style is used if you are sub-classing an existing model and need each model to have its own database table.
+
+3. Proxy models: This style is used, if you only want to modify the Python level behavior of the model, without changing the model’s fields.
