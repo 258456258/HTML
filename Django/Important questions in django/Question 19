@@ -1,0 +1,2 @@
+What are static files?
+Static files in Django are those files that serve the purpose of additional files such as the CSS, images or JavaScript files. These files are managed by django.contrib.staticfiles. These files are created within the project app directory by creating a subdirectory named as static.
