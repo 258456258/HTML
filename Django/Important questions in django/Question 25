@@ -1,0 +1,2 @@
+Question:-Does Django support multiple-column Primary Keys?
+Answer:-No. Django only supports single-column Primary Keys.
