@@ -1,0 +1,13 @@
+Explain Django architecture.
+
+Django follows MVT (Model View Template) pattern. It is slightly different from MVC.
+
+Model: It is the data access layer. It contains everything about the data, i.e., how to access it, how to validate it, its behaviors and the relationships between the data.
+
+Let's see an example. We are creating a model Employee who has two fields first_name and last_name.
+
+from django.db import models  
+  
+class Employee(models.Model):  
+    first_name = models.CharField(max_length=30)  
+    last_name = models.CharField(max_length=30)  
