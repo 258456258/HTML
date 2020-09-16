@@ -1,0 +1,3 @@
+Django ORM – Inserting, Updating & Deleting Data
+
+Django lets us interact with its database models, i.e. add, delete, modify and query objects, using a database-abstraction API called ORM(Object Relational Mapper). This article discusses all the useful operations we can perform using Django ORM.
