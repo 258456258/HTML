@@ -1,0 +1,6 @@
+Does Django have any drawbacks?
+A: Django’s disadvantages include:
+
+Its monolithic size makes it unsuitable for smaller projects
+Everything hinges on Django’s ORM (Object-Relational Mapping)
+Everything must be explicitly defined due to a lack of convention
