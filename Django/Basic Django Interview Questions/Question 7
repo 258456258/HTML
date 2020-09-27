@@ -1,0 +1,9 @@
+What does Django architecture look like?
+A: Django architecture consists of:
+
+Models. Describes the database schema and data structure
+Views. Controls what a user sees. The view retrieves data from appropriate models, executes any calculations made, and passes it on to the template
+Templates. Controls how the user sees the pages. It describes how the data received from the views needs to be altered or formatted to display on the page
+Controller. Made up of the Django framework and URL parsing
+After going through some of the basic Django interview questions and answers, it is time we increase the difficulty level with the intermediate Django interview questions and answers.
+
