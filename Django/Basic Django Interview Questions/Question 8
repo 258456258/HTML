@@ -1,0 +1,13 @@
+What is Django? Elaborate some technical features.
+
+Ans. Django is a high-level web application framework based on Python. This framework is one of the best in the industry for rapid development, pragmatic design without compromising on features.
+
+Some of the technical features of Django include:
+
+Admin Interface
+Code Reusability
+CDN Integration
+Security Features
+ORM
+A huge number of third-party applications
+There are many features which Django community has been developing over the years and therefore it’s called “Batteries-Included” framework, as it has lots of features built-in which otherwise would be time-consuming and expensive to make.
