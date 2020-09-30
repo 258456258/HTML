@@ -1,0 +1,2 @@
+What’s a model in Django?
+A: A model consists of all the necessary fields and attributes of your stored data. They are a single, definitive source of information regarding your data.
